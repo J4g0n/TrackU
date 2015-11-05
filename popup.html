@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Event getter</title>
+      <style>
+        body {
+          font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+          font-size: 100%;
+        }
+        #status {
+          /* avoid an excessively wide status text */
+          white-space: pre;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          max-width: 400px;
+        }
+      </style>
+      <style type="text/css"></style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="./popup.js" defer></script>
+    </head>
+    <body>
+      <div id="status"></div>
+      <img id="image-result" hidden="">
+    </body>
+  </html>
